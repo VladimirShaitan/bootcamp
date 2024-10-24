@@ -1,0 +1,127 @@
+/* General styles */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0;
+}
+
+/* general dream section styles */
+.dream {
+    padding: 50px 15px;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+/* dream title styles */
+.title-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.dream h1 {
+    display: flex;
+    flex-direction: column;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.dream h1 .line1 {
+    font-size: 80px;
+    color: #FF1A1A;
+}
+.dream h1 .line2 {
+    font-size: 80px;
+    color: black;
+    padding-left: 155px;
+}
+.subtitle {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.subtitle:before {
+    content: '';
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #FF1A1A;
+    margin-top: 5px;
+    margin-right: 5px;
+    border-radius: 50%;
+}
+
+/* dream content styles */
+
+.dream-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-block {
+    max-width: 502px;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.form-block p {
+    text-align: justify;
+    font-weight: 300;
+}
+.form-block form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.form-block form label {
+    display: block;
+}
+
+.form-block form input {
+   width: 100%;
+   border: none;
+   border-bottom: 2px solid #ccc;
+   padding: 8px 0;
+    transition: 0.3s;
+}
+
+.form-block form input:focus-visible {
+    outline: none ;
+    border-bottom-color: #FF1A1A;
+}
+
+
+.form-block form button {
+    background: none;
+    border: none;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    cursor: pointer;
+}
+
+.form-block form button i {
+    font-size: 30px;
+    color: #FF1A1A;
+}
+
+.form-block .form-controls {
+    margin-top: 30px;
+}
